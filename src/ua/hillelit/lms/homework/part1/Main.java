@@ -26,6 +26,7 @@ public class Main {
   }
 
   private static int countOccurance(List<String> words, String str) {
+
     if (words == null || str == null) {
       return 0;
     }
