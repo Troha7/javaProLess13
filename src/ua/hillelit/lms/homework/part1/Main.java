@@ -55,6 +55,7 @@ public class Main {
   }
 
   private static <T extends Number> List<T> findUnique(List<T> numList) {
+
     List<T> uniqueNumList = new ArrayList<>();
 
     for (T number : numList) {
