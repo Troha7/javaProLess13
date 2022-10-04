@@ -1,4 +1,4 @@
-package ua.hillelit.lms.homework.part2.phonebook;
+package ua.hillelit.lms.part2.phonebook;
 
 public class Main {
 

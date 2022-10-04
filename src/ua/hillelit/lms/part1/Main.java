@@ -1,4 +1,4 @@
-package ua.hillelit.lms.homework.part1;
+package ua.hillelit.lms.part1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
