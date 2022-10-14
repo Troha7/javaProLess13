@@ -5,13 +5,13 @@ import java.util.List;
 
 public class Phonebook {
 
-  private static final List<Writing> writingList = new ArrayList<>();
+  private final List<Writing> writingList = new ArrayList<>();
 
-  public static void add(Writing writing) {
+  public void add(Writing writing) {
     writingList.add(writing);
   }
 
-  public static String find(String name) {
+  public String find(String name) {
 
     for (Writing personInfo : writingList) {
       if (name.equals(personInfo.getName())) {
@@ -22,7 +22,7 @@ public class Phonebook {
     return null;
   }
 
-  public static String findAll(String name) {
+  public String findAll(String name) {
 
     StringBuilder findAll = new StringBuilder();
 
